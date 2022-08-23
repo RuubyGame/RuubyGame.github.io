@@ -1,0 +1,9 @@
+@media (max-width: 599px) {
+  .proj-header_resto {
+    width: 100%;
+    background-color: green;
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=style-restaurant.css.map */
