@@ -3,61 +3,168 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Oh my food</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Le délice des sens</title>
+  <link rel="stylesheet" href="public/css/style-restaurant.css">
   <script src="script.js"></script>
   <script src="https://kit.fontawesome.com/beb2535148.js" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  </style>
 </head>
 
 <body>
-  <header>
+  <header class="proj-resto__header">
     <i class="fa-solid fa-arrow-left"></i>
-    <img src="../images/logo/ohmyfood.png">
+    <div class="proj-resto__header__img--padding">
+      <img class="proj-resto__header__img padding15px" src="images/logo/ohmyfood.png" alt="Logo Oh My Food">
+    </div>
   </header>
 
-  <article>
-    <div><img src="../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette des sens"></div>
-    <div>
-      <p>La palette des sens</p>
-      <i class="fa-regular fa-heart"></i>
-    </div>
-    <div>
-      <p>Entrée</p>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-    <div>
-      <p>Plats</p>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-    <div>
-      <p>Dessert</p>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
+  <div class="proj-resto__header__img--background">
+    <img class="proj-resto__header__background--img" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+      alt="À la française">
+  </div>
 
-    <button type="button">Commander</button>
+  <article class="proj-resto__activity--background">
+    <div class="proj-resto-padding-margin">
+      <div class="proj-resto__activity--flex">
+        <p class="proj-resto__activity__p">Le délice des sens</p>
+        <i class=" proj-resto__activity-heart fa-regular fa-heart"></i>
+      </div>
+
+      <p class="proj-resto-activity--p">ENTRÉES</p>
+      <div class="proj-resto__border"></div>
+
+      <div class="proj-resto__entree--margin">
+        <div class=" proj-resto-entrée__background proj-resto-entrée__padding">
+          <div>
+            <p class="proj-resto-entrée__p--bold">Tartare de thon </p>
+          </div>
+          <div class="proj-resto-entrée__p">
+            <p>Assaisonné au yuzu </p>
+            <p>25€</p>
+          </div>
+        </div>
+
+        <div class="proj-resto-entrée__background proj-resto-entrée__padding">
+          <div>
+            <p class="proj-resto-entrée__p--bold">Bouchée de homard croustillant </p>
+          </div>
+          <div class="proj-resto-entrée__p">
+            <p>Et sa farandole de petits légumes</p>
+            <p>35€</p>
+          </div>
+        </div>
+
+        <div class="proj-resto-entrée__background proj-resto-entrée__padding">
+          <div>
+            <p class="proj-resto-entrée__p--bold">Velouté de cèpes </p>
+          </div>
+          <div class="proj-resto-entrée__p">
+            <p>Aux truffes</p>
+            <p>20€</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="proj-resto-activity--p">PLATS</p>
+      <div class="proj-resto__border"></div>
+
+      <div class="proj-resto__entree--margin">
+        <div class=" proj-resto-entrée__background proj-resto-entrée__padding">
+          <div>
+            <p class="proj-resto-entrée__p--bold">Poulet rôti aux herbes de Provence </p>
+          </div>
+          <div class="proj-resto-entrée__p">
+            <p>Et sa crème de truffe</p>
+            <p>40€</p>
+          </div>
+        </div>
+
+        <div class="proj-resto-entrée__background proj-resto-entrée__padding">
+          <div>
+            <p class="proj-resto-entrée__p--bold">Langouste rôtie </p>
+          </div>
+          <div class="proj-resto-entrée__p">
+            <p>Et ses légumes de saison</p>
+            <p>35€</p>
+          </div>
+        </div>
+
+        <div class="proj-resto-entrée__background proj-resto-entrée__padding">
+          <div>
+            <p class="proj-resto-entrée__p--bold">Côte de boeuf Angus </p>
+          </div>
+          <div class="proj-resto-entrée__p">
+            <p>Et sa purée de panais</p>
+            <p>44€</p>
+          </div>
+        </div>
+      </div>
+
+
+      <p class="proj-resto-activity--p">DESSERTS</p>
+      <div class="proj-resto__border"></div>
+
+      <div class="proj-resto__entree--margin">
+        <div class=" proj-resto-entrée__background proj-resto-entrée__padding">
+          <div>
+            <p class="proj-resto-entrée__p--bold">Farandole de desserts</p>
+          </div>
+          <div class="proj-resto-entrée__p">
+            <p>Du chef</p>
+            <p>18€</p>
+          </div>
+        </div>
+
+        <div class="proj-resto-entrée__background proj-resto-entrée__padding">
+          <div>
+            <p class="proj-resto-entrée__p--bold">Crème brulée </p>
+          </div>
+          <div class="proj-resto-entrée__p">
+            <p>Revisitée</p>
+            <p>22€</p>
+          </div>
+        </div>
+
+        <div class="proj-resto-entrée__background proj-resto-entrée__padding">
+          <div>
+            <p class="proj-resto-entrée__p--bold">Tiramisu </p>
+          </div>
+          <div class="proj-resto-entrée__p">
+            <p>À la noisette</p>
+            <p>23€</p>
+          </div>
+        </div>
+      </div>
+      <button class="proj-resto-btn" type="button">Commander</button>
+    </div>
   </article>
-  <footer>
+  <footer class="proj-resto__footer">
     <div>
-      <img src="../images/logo/ohmyfood.png" alt="Oh my food">
+        <div>
+            <p class="proj--footer--p__title">Ohmyfood</p>
+        </div>
+        <div>
+            <div class="proj-footer--flex">
+                <i class="fa-solid fa-utensils"></i>
+                <p class="proj-footer--p__margin">Proposer un restaurant</p>
+            </div>
+            <div class="proj-footer--flex">
+                <i class="fa-solid fa-handshake"></i>
+                <p class="proj-footer--p__margin">Devenir partenaire</p>
+            </div>
+        </div>
     </div>
     <div>
-      <i class="fa-solid fa-utensils"></i>
-      <p>Proposer un restaurant</p>
+        <p class="proj-footer--p__margin">Mentions Légales</p>
+        <p class="proj-footer--p__margin">Contact</p>
     </div>
-    <div>
-      <i class="fa-solid fa-handshake"></i>
-      <p>Devenir partenaire</p>
-    </div>
-    <div>
-      <p>Mentions Légales</p>
-      <p>Contact</p>
-    </div>
-  </footer>
+</footer>
 </body>
+
 </html>
