@@ -1,0 +1,88 @@
+.proj-footer {
+    background-color: #353535;
+    color: $color-white;
+    padding-top: 25px;
+    padding-left: 25px;
+
+    .proj--footer--p__title {
+        color: $color-white;
+        font-family: $font-Shrikland;
+        font-size: 20px;
+        margin: 0px;
+    }
+}
+
+.proj-footer--flex {
+    @include display-flex();
+    align-items: center;
+}
+
+.proj-footer--p__margin {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 0px;
+    font-family: $font-roboto;
+}
+
+.fa-utensils {
+    padding-right: 19px;
+    font-size: 15px;
+}
+
+.fa-handshake {
+    padding-right: 13px;
+    transform: rotate(45deg);
+    font-size: 15px;
+}
+
+.pt5 {
+    padding-top: 5px;
+}
+
+// footer restaurant 
+
+
+
+.proj-resto__footer {
+    background-color: #353535;
+    color: white;
+    padding-top: 25px;
+    padding-left: 25px;
+    font-family: $font-roboto;
+    position: relative;
+
+    .proj--footer--p__title {
+        color: $color-white;
+        font-family: $font-Shrikland;
+        font-size: 25px;
+        margin: 0px;
+    }
+}
+
+
+.proj-footer--flex {
+    @include display-flex();
+    align-items: center;
+}
+
+.proj-footer--p__margin {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 0px;
+    font-family: $font-roboto;
+}
+
+.fa-utensils {
+    padding-right: 19px;
+    font-size: 15px;
+}
+
+.fa-handshake {
+    padding-right: 13px;
+    transform: rotate(45deg);
+    font-size: 15px;
+}
+
+.p__bold {
+    font-weight: bold;
+}

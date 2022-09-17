@@ -1,0 +1,17 @@
+.padding15px {
+    padding: 0px;
+    margin: 0px;
+
+    @media (max-width: 899px) {
+        padding: 15px;
+        margin: 0px;
+    }
+}
+
+
+.proj-resto-padding-margin {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    // margin-top: 25px;
+}

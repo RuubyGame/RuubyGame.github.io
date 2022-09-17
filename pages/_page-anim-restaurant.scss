@@ -1,0 +1,60 @@
+.proj-resto-entrée__background:hover .proj-resto__icone {
+    width: 20%;
+    height: 70px;
+}
+
+.proj-resto-entrée__background:hover .proj-resto__icone .p__bold{
+    margin-left: 30px;
+}
+
+.proj-resto-entrée__background:hover .proj-resto__icone i{
+    transform: rotate(360deg);
+}
+.proj-resto__icone i {
+    transition: transform 500ms;
+}
+
+
+
+
+.proj-resto-btn:hover{
+    filter: brightness(1.10);
+    box-shadow: 0 5.5px 7px 0.5px rgb(109 106 106 / 55%);
+    color: white;
+}
+
+
+@keyframes text-scroll{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.proj-resto-entrée__background{
+    animation: text-scroll 4s ;
+}
+
+
+
+// .fa-heart {
+//     font-size: 25px;
+//     color: black;
+// }
+
+// .icon-heart:hover .fa-regular,
+// .icon-heart .fa-solid {
+//     display: none;
+// }
+
+// .icon-heart:hover .fa-solid {
+//     display: initial;
+//     background: linear-gradient($color-primary, $color-secondary);
+//     background-clip: text;
+//     -webkit-background-clip: text;
+//     color: transparent;
+//     -webkit-text-fill-color: transparent;
+// }

@@ -1,0 +1,143 @@
+.proj-resto__activity--background {
+    height: 1200px;
+    background-color: #F6F6F6;
+    position: relative;
+    bottom: 122px;
+    border-radius: 33px 33px 0px 0px;
+    width: 100%;
+
+    @media (max-width: 940px) {
+        height: 1178px;
+
+        background-color: #F6F6F6;
+        position: relative;
+        bottom: 75px;
+        border-radius: 33px 33px 0px 0px;
+        width: 100%;
+    }
+
+    @media (max-width: 899px) {
+        height: 1240px;
+        background-color: #F6F6F6;
+        position: relative;
+        bottom: 54px;
+        border-radius: 33px 33px 0px 0px;
+        width: 100%;
+    }
+}
+
+
+.proj-resto__activity--flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.proj-resto__activity-heart {
+    font-size: 26px;
+}
+
+.proj-resto-activity--p {
+    margin-top: 35px;
+
+}
+
+.proj-resto__activity__p {
+    font-family: $font-Shrikland;
+    font-size: 26px;
+}
+
+.proj-resto__border {
+    width: 35px;
+    border: 1.5px solid $color-tertiary;
+    margin: 0px;
+    margin-top: 3px;
+    padding: 0px;
+    background-color: $color-tertiary;
+    border-radius: 20px;
+}
+
+.proj-resto__entree--margin {
+    margin-top: 15px;
+}
+
+.proj-resto-entrée__padding {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.proj-resto-entrée__p--bold {
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.proj-resto-btn {
+    padding: 17px;
+    border-radius: 35px;
+    font-size: 15px;
+    color: white;
+    border: transparent;
+    box-shadow: 0px 4px 10px rgb(196 184 184);
+    background: linear-gradient(-6deg, #9356DC, #FF79DA);
+    width: 15%;
+    margin-left: 43%;
+    margin-top: 36px;
+    font-family: $font-roboto;
+    @media (max-width: 940px) {
+            width: 29%;
+            margin-left: 36%;
+    }
+    @media (max-width: 899px) {
+        width: 49%;
+        margin-left: 26%;
+        margin-top: 36px;
+    }
+}
+
+.proj-resto-entrée__background {
+    width: 96%;
+    height: 70px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include box-shadow();
+    margin-bottom: 20px;
+}
+
+.proj-resto-entrée__text {
+    width: 100%;
+    height: 70px;
+    padding: 6px 10px;
+    border-radius: 15px 0px 0px 15px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.proj-resto-entrée__p {
+    display: flex;
+    justify-content: space-between;
+
+}
+.proj-resto__icone {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    transition: width 500ms;
+    background-color: $color-tertiary;
+    color: white;
+    font-size: 25px;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+}
+
+
