@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.spinner-wrapper {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4000000;
+}
+
+
+.spinner-wrapper {
+    animation-name: fadeOut, backOutTop;
+    animation-duration: 3s, 550ms;
+    animation-delay: 0s, 1s;
+    animation-iteration-count: 1, 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes backOutTop {
+    0% {
+        height: 100vh;
+        width: 100vw;
+    }
+    100% {
+        height: 0;
+        width: 0;
+    }
+
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 

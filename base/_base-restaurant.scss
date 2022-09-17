@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: $color-light-gray;
+    margin: auto;
+    width: 70%;
+
+    @media (max-width: 940px) {
+        width: 70%;
+        margin: auto;
+    }
+
+    @media (max-width: 899px) {
+        margin: 0px;
+        padding: 0px;
+        background-color: $color-light-gray;
+        width: 100%;
+
+    }
+}
+
+html {
+    background-color: white;
+}
+
+p {
+    font-family: $font-roboto;
+    margin: 0;
+    padding: 0;
+}
+
