@@ -8,12 +8,9 @@
   <link rel="stylesheet" href="public/css/style-restaurant.css">
   <script src="script.js"></script>
   <script src="https://kit.fontawesome.com/beb2535148.js" crossorigin="anonymous"></script>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-  </style>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,142 +25,193 @@
     <img class="proj-resto__header__background--img" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
       alt="À la française">
   </div>
+  <!-- proj-resto-entrée__padding -->
 
   <article class="proj-resto__activity--background">
     <div class="proj-resto-padding-margin">
       <div class="proj-resto__activity--flex">
         <p class="proj-resto__activity__p">La palette du goût</p>
-        <i class=" proj-resto__activity-heart fa-regular fa-heart"></i>
+        <div class="icon-heart">
+          <i class="fa-heart fa-regular"></i>
+          <i class="fa-heart fa-solid"></i>
+        </div>
       </div>
 
       <p class="proj-resto-activity--p">ENTRÉES</p>
       <div class="proj-resto__border"></div>
 
       <div class="proj-resto__entree--margin">
-        <div class=" proj-resto-entrée__background proj-resto-entrée__padding">
-          <div>
-            <p class="proj-resto-entrée__p--bold">Fricassée d'escargot</p>
+        <div class=" proj-resto-entrée__background">
+          <div class="proj-resto-entrée__text ellipsis">
+            <div>
+              <p class="proj-resto-entrée__p--bold">Fricassée d'escargot</p>
+            </div>
+            <div class="proj-resto-entrée__p">
+              <p class="ellipsis">Fricassée d'escargot</p>
+              <p class="p__bold">25€</p>
+            </div>
           </div>
-          <div class="proj-resto-entrée__p">
-            <p>Au piment d'Espelette </p>
-            <p class="p__bold">25€</p>
-          </div>
-        </div>
-
-        <div class="proj-resto-entrée__background proj-resto-entrée__padding">
-          <div>
-            <p class="proj-resto-entrée__p--bold">Foie gras de canard mi-cuit</p>
-          </div>
-          <div class="proj-resto-entrée__p">
-            <p>Et ses copeaux de truffe noire</p>
-            <p class="p__bold">35€</p>
+          <div class="proj-resto__icone">
+            <i class=" check-icon fa-solid fa-circle-check"></i>
           </div>
         </div>
 
-        <div class="proj-resto-entrée__background proj-resto-entrée__padding">
-          <div>
-            <p class="proj-resto-entrée__p--bold">Oeuf au plat</p>
+        <div class=" proj-resto-entrée__background">
+          <div class="proj-resto-entrée__text ellipsis">
+            <div>
+              <p class="proj-resto-entrée__p--bold">Foie gras de canard mi-cuit</p>
+            </div>
+            <div class="proj-resto-entrée__p">
+              <p class="ellipsis">Et ses copeaux de truffe noire</p>
+              <p class="p__bold">35€</p>
+            </div>
           </div>
-          <div class="proj-resto-entrée__p">
-            <p>Assaisonné à la truffe sur lit de caviar</p>
-            <p class="p__bold">20€</p>
+          <div class="proj-resto__icone">
+            <i class=" check-icon fa-solid fa-circle-check"></i>
           </div>
+        </div>
+
+        <div class=" proj-resto-entrée__background">
+          <div class="proj-resto-entrée__text ellipsis">
+            <div>
+              <p class="proj-resto-entrée__p--bold">Oeuf au plat</p>
+            </div>
+            <div class="proj-resto-entrée__p">
+              <p class="ellipsis">Assaisonné à la truffe sur lit de caviar</p>
+              <p class="p__bold">20€</p>
+            </div>
+          </div>
+          <div class="proj-resto__icone">
+            <i class=" check-icon fa-solid fa-circle-check"></i>
+          </div>
+        </div>
+
+        <p class="proj-resto-activity--p">PLATS</p>
+        <div class="proj-resto__border"></div>
+
+        <div class="proj-resto__entree--margin">
+          <div class=" proj-resto-entrée__background">
+            <div class="proj-resto-entrée__text ellipsis">
+              <div>
+                <p class="proj-resto-entrée__p--bold">Filet de boeuf aux herbes</p>
+              </div>
+              <div class="proj-resto-entrée__p">
+                <p class="ellipsis">Accompagné de sa ribambelle de légumes</p>
+                <p class="p__bold">40€</p>
+              </div>
+            </div>
+            <div class="proj-resto__icone">
+              <i class=" check-icon fa-solid fa-circle-check"></i>
+            </div>
+          </div>
+
+          <div class=" proj-resto-entrée__background">
+            <div class="proj-resto-entrée__text ellipsis">
+              <div>
+                <p class="proj-resto-entrée__p--bold">Parmentier de queue de boeuf</p>
+              </div>
+              <div class="proj-resto-entrée__p">
+                <p class="ellipsis">À la truffe noire sur sa purée de panais</p>
+                <p class="p__bold">35€</p>
+              </div>
+            </div>
+            <div class="proj-resto__icone">
+              <i class=" check-icon fa-solid fa-circle-check"></i>
+            </div>
+          </div>
+
+
+          <div class=" proj-resto-entrée__background">
+            <div class="proj-resto-entrée__text ellipsis">
+              <div>
+                <p class="proj-resto-entrée__p--bold">Filet de turbot</p>
+              </div>
+              <div class="proj-resto-entrée__p">
+                <p class="ellipsis">Aux agrumes</p>
+                <p class="p__bold">44€</p>
+              </div>
+            </div>
+            <div class="proj-resto__icone">
+              <i class=" check-icon fa-solid fa-circle-check"></i>
+            </div>
+          </div>
+
+          <p class="proj-resto-activity--p">DESSERTS</p>
+          <div class="proj-resto__border"></div>
+
+          <div class="proj-resto__entree--margin">
+
+            <div class=" proj-resto-entrée__background">
+              <div class="proj-resto-entrée__text ellipsis">
+                <div>
+                  <p class="proj-resto-entrée__p--bold">Paris-Brest</p>
+                </div>
+                <div class="proj-resto-entrée__p">
+                  <p class="ellipsis">Revisité</p>
+                  <p class="p__bold">18€</p>
+                </div>
+              </div>
+              <div class="proj-resto__icone">
+                <i class=" check-icon fa-solid fa-circle-check"></i>
+              </div>
+            </div>
+
+            <div class=" proj-resto-entrée__background">
+              <div class="proj-resto-entrée__text ellipsis">
+                <div>
+                  <p class="proj-resto-entrée__p--bold">Macaron au chocolat d'exception </p>
+                </div>
+                <div class="proj-resto-entrée__p">
+                  <p class="ellipsis">Et glace à la vanille de Madagascar</p>
+                  <p class="p__bold">22€</p>
+                </div>
+              </div>
+              <div class="proj-resto__icone">
+                <i class=" check-icon fa-solid fa-circle-check"></i>
+              </div>
+            </div>
+
+            <div class=" proj-resto-entrée__background">
+              <div class="proj-resto-entrée__text ellipsis">
+                <div>
+                  <p class="proj-resto-entrée__p--bold">Mousse au chocolat </p>
+                </div>
+                <div class="proj-resto-entrée__p">
+                  <p class="ellipsis">Au piment d'Espelette et à la truffe noire</p>
+                  <p class="p__bold">23€</p>
+                </div>
+              </div>
+              <div class="proj-resto__icone">
+                <i class=" check-icon fa-solid fa-circle-check"></i>
+              </div>
+            </div>
+          </div>
+          <button class="proj-resto-btn" type="button">Commander</button>
         </div>
       </div>
-
-      <p class="proj-resto-activity--p">PLATS</p>
-      <div class="proj-resto__border"></div>
-
-      <div class="proj-resto__entree--margin">
-        <div class=" proj-resto-entrée__background proj-resto-entrée__padding">
-          <div>
-            <p class="proj-resto-entrée__p--bold">Filet de boeuf aux herbes</p>
-          </div>
-          <div class="proj-resto-entrée__p">
-            <p>Accompagné de sa ribambelle de légumes</p>
-            <p class="p__bold">40€</p>
-          </div>
-        </div>
-
-        <div class="proj-resto-entrée__background proj-resto-entrée__padding">
-          <div>
-            <p class="proj-resto-entrée__p--bold">Parmentier de queue de boeuf</p>
-          </div>
-          <div class="proj-resto-entrée__p">
-            <p>À la truffe noire sur sa purée de panais</p>
-            <p class="p__bold">35€</p>
-          </div>
-        </div>
-
-        <div class="proj-resto-entrée__background proj-resto-entrée__padding">
-          <div>
-            <p class="proj-resto-entrée__p--bold">Filet de turbot</p>
-          </div>
-          <div class="proj-resto-entrée__p">
-            <p>Aux agrumes</p>
-            <p class="p__bold">44€</p>
-          </div>
-        </div>
-      </div>
-
-
-      <p class="proj-resto-activity--p">DESSERTS</p>
-      <div class="proj-resto__border"></div>
-
-      <div class="proj-resto__entree--margin">
-        <div class="proj-resto-entrée__background proj-resto-entrée__padding">
-          <div>
-            <p class="proj-resto-entrée__p--bold">Paris-Brest</p>
-          </div>
-          <div class="proj-resto-entrée__p">
-            <p>Revisité</p>
-            <p class="p__bold">18€</p>
-          </div>
-        </div>
-
-        <div class="proj-resto-entrée__background proj-resto-entrée__padding">
-          <div>
-            <p class="proj-resto-entrée__p--bold">Macaron au chocolat d'exception </p>
-          </div>
-          <div class="proj-resto-entrée__p">
-            <p>Et glace à la vanille de Madagascar</p>
-            <p class="p__bold">22€</p>
-          </div>
-        </div>
-        <div class=" proj-resto-entrée__background proj-resto-entrée__padding">
-          <div>
-            <p class="proj-resto-entrée__p--bold">Mousse au chocolat </p>
-          </div>
-          <div class="proj-resto-entrée__p">
-            <p>Au piment d'Espelette et à la truffe noire</p>
-            <p class="p__bold">23€ </p>
-          </div>
-        </div>
-      </div>
-      <button class="proj-resto-btn" type="button">Commander</button>
     </div>
   </article>
   <footer class="proj-resto__footer">
     <div>
-        <div>
-            <p class="proj--footer--p__title">Ohmyfood</p>
+      <div>
+        <p class="proj--footer--p__title">Ohmyfood</p>
+      </div>
+      <div>
+        <div class="proj-footer--flex">
+          <i class="fa-solid fa-utensils"></i>
+          <p class="proj-footer--p__margin">Proposer un restaurant</p>
         </div>
-        <div>
-            <div class="proj-footer--flex">
-                <i class="fa-solid fa-utensils"></i>
-                <p class="proj-footer--p__margin">Proposer un restaurant</p>
-            </div>
-            <div class="proj-footer--flex">
-                <i class="fa-solid fa-handshake"></i>
-                <p class="proj-footer--p__margin">Devenir partenaire</p>
-            </div>
+        <div class="proj-footer--flex">
+          <i class="fa-solid fa-handshake"></i>
+          <p class="proj-footer--p__margin">Devenir partenaire</p>
         </div>
+      </div>
     </div>
     <div>
-        <p class="proj-footer--p__margin">Mentions Légales</p>
-        <p class="proj-footer--p__margin">Contact</p>
+      <p class="proj-footer--p__margin">Mentions Légales</p>
+      <p class="proj-footer--p__margin">Contact</p>
     </div>
-</footer>
+  </footer>
 </body>
 
 </html>
