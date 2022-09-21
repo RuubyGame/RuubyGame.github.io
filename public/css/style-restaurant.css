@@ -55,11 +55,6 @@ p {
   padding-left: 25px;
   height: 100%;
 }
-@media (max-width: 940px) {
-  .proj-footer {
-    height: 341px;
-  }
-}
 .proj-footer .proj--footer--p__title {
   color: white;
   font-family: "Shrikhand", sans-serif;
